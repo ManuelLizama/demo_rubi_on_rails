@@ -1,1 +1,7 @@
 hola
+<br>
+<%= @articles.each do |article| %>
+	<div>
+		<%= article.created_at %>
+	</div>
+<%end %>
