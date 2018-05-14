@@ -4,12 +4,24 @@
     <title>Blog</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <link href="https://fonts.googleapis.com/css?family=Lato|Pangolin|Roboto" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <nav class="be-red white large-padding">
+      <ul class="no-list row center-xs">
+        <li class="col-md">
+          <%= link_to "Inicio", root_path %>
+          </li>
+        <li class="col-md">
+          diseño
+        </li>
+        <li class="col-md">programacion</li>
+        <li class="col-md">tecnologia</li>
+      </ul>
+    </nav>
     <%= yield %>
   </body>
 </html>
