@@ -5,9 +5,19 @@ html, body{
 .be-red{
 	background-color: #41848F; 
 }
+#logo{
+	font-size: 1.2em;
+}
+.no-margin{
+	margin: 0px;
+}
 .white{
 	color: #97C0B7;
 }
 .large-padding{
 	padding: 10px 5px;
+}
+a,a:visited{
+	color: inherit;
+	text-decoration: none;
 }
